@@ -47,10 +47,19 @@ body {
   transition: 0.3s;
   opacity: 0;
   animation: slideTop 0.5s ease forwards;
-  animation-delay: calc(0.2s * var(--1));
+  animation-delay: calc(0.2s * var(--i));
+}
+
+.navbar a.active {
+  color: #0ef;
+  font-weight: 700;
 }
 
 .navbar a:hover {
+  color: #0ef;
+}
+
+.navbar a:active {
   color: #0ef;
 }
 
